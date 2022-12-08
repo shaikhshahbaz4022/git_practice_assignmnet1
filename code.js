@@ -1,9 +1,23 @@
-let count=0;
+Prime No. :-
 
-for(let i=0;i<num;i++){
-if(num%i==0){
-count++
+
+let count=0;
+let num=13;
+
+for(let i=0;i<num;i++)
+{
+	if(num%i==0)
+		{
+			count++
+		}
 }
+if(count==2)
+{
+console.log(num, "No. is prime")
 }
-if(count=null){
-co
+else
+{
+console.log(i, "No. is not prime")
+}
+
+*****************************XXX*************************************
